@@ -1,0 +1,1 @@
+<?php define('ROOT',dirname(__FILE__)); define('DS', DIRECTORY_SEPARATOR); spl_autoload_register('autocarga'); function autocarga($class){$class = ROOT . DS . str_replace('\\', DS, $class).'.php'; if (!file_exists($class)) {error_log("No se pudo encontrar la clase " ); ECHO "no se ha encontrado"; } require_once($class); } ?>

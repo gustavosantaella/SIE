@@ -1,0 +1,108 @@
+html{
+
+}
+table{
+	width: 50%;
+	border-color: rgba(100,100,100,.3);
+	position: relative;
+	left: 25%;
+	top: 50px;
+
+}
+
+
+
+.borderTable{
+	border:1px solid rgba(100,100,100,.2);
+}
+
+.input{
+	width: 100%;
+	border: 0px;
+	outline: none;
+	text-align: right;
+	padding: 10px;
+}
+
+#fecha{
+	border: 0px;
+	outline: none;
+	font-weight: bold;
+	height: 4em;
+
+}
+
+.ui-datepicker-calendar{
+	position: relative;
+	left: 1%;
+}
+
+td{
+	font-weight: bold;
+
+
+}
+
+.btn-enviar{
+	position: relative;
+	left: 38%;
+	width: 10em;
+	top: 1em;
+	transition: all 0.5s;
+}
+
+.btn-enviar:hover{
+	transform: scale(1.2);
+	transition: all 0.5s;
+    font-weight: bold;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.success{
+	background:rgba(40,167,69,.5);
+	height: 10vh;
+	width: 30%;
+	color: #fff;
+	border-radius: 15px;
+	text-align: center;
+	transition: all 1s;
+	position: relative;
+	left: 120%;
+	top: 7em;
+	opacity:'0.5'
+
+}
+
+
+.btn-op{
+position: relative;
+	left: 20%;
+	font-weight: bold;
+}
+
+
+	@media only screen and (max-width: 900px ) {
+
+.btn-enviar{
+	position: relative;
+	left: 30%;
+	width: 10em;
+	top: 1em;
+	transition: all 0.5s;
+}
+
+
+table{
+	width: 0%!important;
+	left: 0%;
+}
+
+
+
+}

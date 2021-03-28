@@ -1,0 +1,110 @@
+.th{
+  position: relative;
+  /*  left: 23.7%;*/
+  text-align: center;
+
+}
+
+.input{
+  outline: none;
+  border:0px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+
+#fecha{
+  outline: none;
+  border:0px;
+  text-align: center;
+  font-weight:bold;
+}
+
+table{
+   /* position: relative;
+   top: 40px;*/
+
+   width: 50%;
+   position: relative;
+
+
+ }
+
+ .table-blo{
+
+
+
+}
+
+.borderTable{
+ border:1px solid rgba(100,100,100,.3);
+}
+
+td{
+  padding-bottom: 20px;
+}
+
+.btn-enviar{
+  position: relative;
+  top:10px ;
+  left: 90%;
+  width: 20%;
+  transition: all 0.5s;
+}
+
+.btn-enviar:hover{
+  transition: all 0.5s;
+  transform: scale(1.2);
+  font-weight: bold;
+
+}
+
+.move-fecha{
+  position: relative;
+  left: 40%;
+}
+
+.success{
+  background:rgba(40,167,69,.5);
+  height: 10vh;
+  width: 30%;
+  color: #fff;
+  border-radius: 15px;
+  text-align: center;
+  transition: all 1s;
+  position: relative;
+  left: 120%;
+  opacity:'0.5'
+
+}
+
+
+@media only screen and (max-width: 900px){
+
+
+table{
+  width: 100%;
+}
+
+
+.table-blo{
+  left: 0%;
+  position: relative;;
+  width: 0;
+  top: 0;
+}
+
+.move-fecha{
+  left: 0;
+}
+
+.btn-enviar{
+  left: 50%;
+}
+}
+

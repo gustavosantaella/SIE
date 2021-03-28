@@ -1,0 +1,43 @@
+ .agregar_data{
+    display: flex;
+    margin-bottom:30px;
+    border:0;
+    outline: none;
+    border-bottom:1px solid black;
+    position: relative;
+    left: 10%;
+    margin-top: 20px;
+  }
+
+  .modal-content{
+    border-radius: 25px;
+    position: relative;
+
+    z-index: 1;
+    width: 20%;
+    left: 50%;
+    background: white!important;
+    transform: scale(0.0);
+  }
+
+  #btn-enviar{
+    outline: none;
+    border:0;
+    position: relative;
+    border-radius:10px;
+    left: 25%;
+    font-weight: bold;
+  }
+
+  #btn-cancelar{
+
+    width: 10%;
+    border-radius: 50px;
+    left: 85%;
+    height: 30px;
+    position:relative;
+    top: 5px;
+    outline: none;
+    font-weight: bold;
+
+  }
